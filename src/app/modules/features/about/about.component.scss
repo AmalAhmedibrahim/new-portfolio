@@ -1,0 +1,45 @@
+.about {
+  margin: 7rem 5rem;
+  &__title {
+    i {
+      margin-right: 0.75rem;
+      color: var(--secondary);
+    }
+  }
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    &__info {
+      width: 75%;
+      p {
+        font-size: 1.3rem;
+        margin: 1rem 2rem 0 0;
+        text-align: justify;
+        width: 90%;
+      }
+      &__skills {
+        margin-top: 3rem;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    }
+    &__img {
+      width: 25%;
+      border-radius: 40%;
+      border: 1.5px solid var(--secondary);
+      overflow: hidden;
+      width: 20rem;
+      height: 22rem;
+      &__profile {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

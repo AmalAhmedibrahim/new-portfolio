@@ -1,0 +1,15 @@
+.portfolio {
+  margin: 7rem 5rem;
+  padding-bottom: 5rem;
+  &__title {
+    i {
+      margin-right: 0.75rem;
+      color: var(--secondary);
+    }
+  }
+  &__projects {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+  }
+}

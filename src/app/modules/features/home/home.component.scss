@@ -1,5 +1,5 @@
 .container {
-  margin: 5rem;
+  padding: 5rem;
   .home {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@
           color: var(--secondary);
         }
         &__about {
-          font-size: 1.7rem;
+          font-size: 1.5rem;
           width: 70%;
           margin-top: 2rem;
         }
@@ -68,7 +68,9 @@
       }
     }
   }
+}
 
+@media screen and (max-width: 1200px) {
   .buttons {
     flex-direction: column;
 

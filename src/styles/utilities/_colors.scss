@@ -12,11 +12,12 @@
   --black: #000;
 
   --yellow: #ffc107;
-  --gold: #eeb76b;
 
-  --primary: var(--gray-900);
+  --gold: #eeb76b;
+  --dark-grey: #212121;
+  --gray: #262626;
+
+  --primary: var(--gray);
   --secondary: var(--gold);
   --font-color: var(--gray-100);
 }
-
-$primary: #212529;
