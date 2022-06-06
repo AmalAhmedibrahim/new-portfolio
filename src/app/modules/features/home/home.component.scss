@@ -1,0 +1,106 @@
+.container {
+  margin: 5rem;
+  .home {
+    display: flex;
+    justify-content: space-between;
+    &__text-wrapper {
+      width: 70%;
+      &__welcome {
+        display: flex;
+        span {
+          font-size: 1.5rem;
+          margin: 0 0.3rem;
+        }
+        &__wave {
+          animation-name: wave-animation;
+          animation-duration: 2.5s;
+          animation-iteration-count: infinite;
+          transform-origin: 70% 70%;
+          display: inline-block;
+        }
+      }
+      &__info {
+        display: flex;
+        flex-direction: column;
+        &__name {
+          font-size: 6rem;
+          font-family: "AppleChancery";
+        }
+        &__title {
+          font-size: 2rem;
+          color: var(--secondary);
+        }
+        &__about {
+          font-size: 1.7rem;
+          width: 70%;
+          margin-top: 2rem;
+        }
+      }
+    }
+
+    &__image-wrapper {
+      height: 25rem;
+      width: 30%;
+      margin-right: 2rem;
+      &__img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .home {
+    &__image-wrapper {
+      display: none;
+    }
+    &__info {
+      &__name {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .buttons {
+    flex-direction: column;
+
+    .btn {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

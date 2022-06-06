@@ -1,0 +1,24 @@
+.navbar {
+  height: 3rem;
+  margin: 0 5rem;
+  background-color: var(--primary);
+  &__logo {
+    margin: 0.5rem 0 0 2rem;
+    height: 2.8rem;
+    &__img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  .active {
+    color: var(--secondary);
+  }
+}

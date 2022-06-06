@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  color: var(--font-color);
+}
+
+body {
+  background-color: var(--primary);
+  font-family: "Cairo", "Roboto", "GrapeNuts";
+  min-height: 100vh;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--font-color);
+}
+
+.btn-primary {
+  background-color: var(--gray-800);
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+
+  &:hover {
+    color: var(--secondary);
+    background-color: var(--font-color);
+  }
+}
+
+.special-btn {
+  background-color: var(--font-color);
+  color: var(--primary);
+}
