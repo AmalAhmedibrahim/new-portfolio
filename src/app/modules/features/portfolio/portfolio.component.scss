@@ -1,5 +1,5 @@
 .portfolio {
-  margin: 7rem 5rem;
+  margin: 5rem;
   padding-bottom: 5rem;
   &__title {
     i {
@@ -10,6 +10,7 @@
   &__projects {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 2.5rem;
   }
 }

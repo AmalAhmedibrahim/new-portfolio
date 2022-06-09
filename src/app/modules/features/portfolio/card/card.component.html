@@ -1,28 +1,30 @@
 <div class="card">
   <div class="card-border">
-    <img [src]="project.imageScr" class="card-img-top" alt="..." />
+    <img [src]="project.imageScr" class="card-img-top" alt="project" />
   </div>
-  <div class="card-body">
-    <h6 class="card-title">{{ project.title }}</h6>
-    <i class="bi bi-caret-up-fill"></i>
-  </div>
-</div>
+  <div class="card-bottom">
+    <div class="card-bottom__title">
+      <h6>{{ project.title }}</h6>
+      <i class="bi bi-caret-up-fill"></i>
+    </div>
 
-<div class="card-info">
-  <h5>{{ project.headTitle }}</h5>
-  <p>{{ project.description }}</p>
-  <div>
-    <i class="bi bi-pencil-square"></i>
-    <span>{{ project.languages }}</span>
-  </div>
-  <div class="card-info__buttons">
-    <button type="button" class="btn btn-primary">
-      <i class="bi bi-github"></i>
-      Code
-    </button>
-    <button type="button" class="btn btn-primary">
-      <i class="bi bi-link-45deg"></i>
-      View
-    </button>
+    <div class="card-bottom__info">
+      <h5 class="card-bottom__info__title">{{ project.headTitle }}</h5>
+      <p class="card-bottom__info__description">{{ project.description }}</p>
+      <div class="card-bottom__info__languages">
+        <i class="bi bi-pencil-square"></i>
+        <span>{{ project.languages }}</span>
+      </div>
+      <div class="card-bottom__info__buttons">
+        <button type="button" class="btn btn-primary special-btn">
+          <i class="bi bi-github"></i>
+          Code
+        </button>
+        <button type="button" class="btn btn-primary special-btn">
+          <i class="bi bi-link-45deg"></i>
+          View
+        </button>
+      </div>
+    </div>
   </div>
 </div>

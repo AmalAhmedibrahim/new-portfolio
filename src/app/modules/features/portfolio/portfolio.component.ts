@@ -12,12 +12,12 @@ export class PortfolioComponent implements OnInit {
     this.projects = [
       {
         title: 'Actress Website',
-        imageScr: './assets/images/Faia.png',
+        imageScr: './assets/images/BitMe.png',
         headTitle: 'Pure HTML , SASS ',
         description:
           'Actress WebSite that contains latest songs , albums and time of concerts',
 
-        languages: ['HTML, SASS'],
+        languages: ['HTML', 'SASS', 'JavaScript'],
         websiteURL: '',
         codeURL: '',
       },

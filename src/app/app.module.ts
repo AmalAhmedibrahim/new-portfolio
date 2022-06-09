@@ -1,3 +1,4 @@
+import { CertificatesModule } from './modules/features/certificates/certificates.module';
 import { PortfolioModule } from './modules/features/portfolio/portfolio.module';
 import { AboutModule } from './modules/features/about/about.module';
 import { HomeModule } from './modules/features/home/home.module';
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
     HomeModule,
     AboutModule,
     PortfolioModule,
+    CertificatesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
