@@ -1,5 +1,5 @@
 .portfolio {
-  margin: 5rem;
+  padding: 5rem;
   padding-bottom: 5rem;
   &__title {
     i {
@@ -12,5 +12,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .portfolio__projects {
+    margin-top: 1rem;
+    &__card {
+      margin-top: 2rem;
+    }
   }
 }

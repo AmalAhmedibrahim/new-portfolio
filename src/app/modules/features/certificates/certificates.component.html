@@ -1,1 +1,16 @@
-<app-certificate></app-certificate>
+<div class="certificates">
+  <h4 class="certificates__header">
+    <img
+      src="./assets/images/certificate.png"
+      class="certificates__header__img"
+    />
+    <span>Certificates</span>
+  </h4>
+  <div class="certificates__cards">
+    <app-certificate
+      *ngFor="let certificate of certificates"
+      [certificate]="certificate"
+      class="certificates__cards__card"
+    ></app-certificate>
+  </div>
+</div>

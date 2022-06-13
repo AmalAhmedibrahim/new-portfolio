@@ -2,6 +2,15 @@
   height: 3rem;
   margin: 0 5rem;
   background-color: var(--dark-grey);
+  &__container {
+    position: fixed;
+    right: 0;
+    z-index: 10;
+    background-color: var(--dark-grey);
+    height: 4rem;
+    top: 0;
+    opacity: 90%;
+  }
   &__logo {
     margin: 0.5rem 0 0 2rem;
     height: 2.8rem;
@@ -20,5 +29,23 @@
 
   .active {
     color: var(--secondary);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-collapse {
+    background-color: var(--dark-grey);
+    opacity: 100%;
+    padding-left: 2rem;
+    i {
+      margin-right: 1rem;
+    }
+  }
+
+  .navbar {
+    margin: 0;
+    &__container {
+      position: static;
+    }
   }
 }

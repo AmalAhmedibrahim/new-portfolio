@@ -1,0 +1,28 @@
+.certificates {
+  padding: 5rem;
+  &__header {
+    &__img {
+      width: 1.2rem;
+      height: 1.3rem;
+      margin-right: 0.75rem;
+    }
+    i {
+      color: var(--secondary);
+    }
+  }
+  &__cards {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .certificates__cards {
+    margin-top: 1rem;
+    &__card {
+      margin-top: 2rem;
+    }
+  }
+}

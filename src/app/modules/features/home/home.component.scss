@@ -59,6 +59,9 @@
 
 @media screen and (max-width: 961px) {
   .home {
+    &__text-wrapper {
+      width: 100% !important;
+    }
     &__image-wrapper {
       display: none;
     }
