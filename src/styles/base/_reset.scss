@@ -17,6 +17,11 @@ body {
   margin: 0;
   font-size: 0.875rem;
   color: var(--font-color);
+  i {
+    &:hover {
+      color: var(--font-color);
+    }
+  }
 }
 
 .btn-primary {

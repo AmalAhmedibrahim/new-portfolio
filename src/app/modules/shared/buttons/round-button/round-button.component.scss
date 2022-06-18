@@ -7,4 +7,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    color: var(--secondary);
+    background-color: var(--font-color);
+  }
 }
