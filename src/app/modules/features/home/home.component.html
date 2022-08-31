@@ -1,6 +1,6 @@
 <div class="container">
   <div class="home">
-    <div class="home__text-wrapper">
+    <div class="home__text-wrapper" [@slideUp]>
       <div class="home__text-wrapper__welcome">
         <span>HI THERE</span>
         <span class="home__text-wrapper__welcome__wave"> 👋 </span>
@@ -16,14 +16,14 @@
         </p>
       </div>
     </div>
-    <div class="home__image-wrapper">
+    <div class="home__image-wrapper" [@slideRight]>
       <img
         class="home__image-wrapper__img"
         src="./assets/images/hero-image.png"
       />
     </div>
   </div>
-  <div class="buttons">
+  <div class="buttons" [@slideUp]>
     <button type="button" class="btn btn-primary">
       <i class="bi bi-file-earmark-person-fill"></i>
       <a

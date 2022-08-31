@@ -20,7 +20,7 @@ export class CertificatesComponent implements OnInit {
         certificateURL: '',
       },
       {
-        name: 'UX Developer',
+        name: 'UI/UX Developer',
         organization: 'Udacity Nanodegree Program',
         logoScr: './assets/icons/udacity.svg',
         FinalProjectURL: '',

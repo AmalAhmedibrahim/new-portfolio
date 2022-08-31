@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="footer">
+    <div class="footer" [@slideLeft]>
       <div class="footer__header">
         <h4 class="footer__header__title">
           <i class="bi bi-envelope-fill"></i>
@@ -27,11 +27,15 @@
         </li>
       </ul>
     </div>
-    <div class="form">
-      <form>
+    <div class="form" [@fadeIn]>
+      <form
+        action="https://formsubmit.co/dev.amal.ahmed@gmail.com"
+        method="POST"
+      >
         <div class="form-group">
           <input
             type="text"
+            name="name"
             class="form-control"
             id="name"
             aria-describedby="emailHelp"
@@ -39,6 +43,7 @@
           />
           <input
             type="email"
+            name="email"
             class="form-control"
             id="email"
             aria-describedby="emailHelp"
@@ -47,6 +52,7 @@
           <textarea
             class="form-control"
             id="message"
+            name="message"
             rows="4"
             placeholder="Enter Your Message...."
           ></textarea>

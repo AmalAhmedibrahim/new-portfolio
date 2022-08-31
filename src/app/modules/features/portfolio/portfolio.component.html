@@ -1,8 +1,9 @@
 <div class="portfolio">
-  <h4 class="portfolio__title">
+  <h4 class="portfolio__title" [@fadeIn]>
     <i class="bi bi-stars"></i>
     <span>Portfolio</span>
   </h4>
+
   <div class="portfolio__projects">
     <app-card
       *ngFor="let project of projects"

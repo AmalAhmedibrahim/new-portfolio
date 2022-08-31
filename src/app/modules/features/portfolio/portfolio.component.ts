@@ -1,10 +1,12 @@
 import { Project } from './models/project.interface';
 import { Component, OnInit } from '@angular/core';
+import { fadeIn, slideUp } from 'src/app/animations/animations';
 
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.scss'],
+  animations: [fadeIn, slideUp],
 })
 export class PortfolioComponent implements OnInit {
   projects: Project[];
