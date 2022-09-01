@@ -1,5 +1,5 @@
 <div class="certificates">
-  <h4 class="certificates__header">
+  <h4 class="certificates__header" data-aos="fade-in" data-aos-duration="2000">
     <img
       src="./assets/images/certificate.png"
       class="certificates__header__img"
@@ -11,6 +11,8 @@
       *ngFor="let certificate of certificates"
       [certificate]="certificate"
       class="certificates__cards__card"
+      data-aos="zoom-in"
+      data-aos-duration="2000"
     ></app-certificate>
   </div>
 </div>

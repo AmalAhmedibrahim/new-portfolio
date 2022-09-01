@@ -1,12 +1,14 @@
 <div class="portfolio">
-  <h4 class="portfolio__title" [@fadeIn]>
+  <h4 class="portfolio__title" data-aos="fade-in" data-aos-duration="2000">
     <i class="bi bi-stars"></i>
     <span>Portfolio</span>
   </h4>
 
   <div class="portfolio__projects">
     <app-card
-      *ngFor="let project of projects"
+      *ngFor="let project of projects; let i = index"
+      data-aos="fade-up"
+      data-aos-duration="2000"
       [project]="project"
       class="portfolio__projects__card"
     ></app-card>

@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeIn, slideLeft, slideUp } from 'src/app/animations/animations';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss'],
-  animations: [slideLeft, fadeIn],
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
   constructor() {}
+  ngOnInit(): void {
+    AOS.init();
+  }
 }

@@ -1,5 +1,6 @@
 import { Certificate } from './models/certificate.interface';
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-certificates',
@@ -11,6 +12,8 @@ export class CertificatesComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    AOS.init();
+
     this.certificates = [
       {
         name: 'Web development scholarship',
