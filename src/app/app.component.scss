@@ -1,9 +1,11 @@
-.section {
-  background-color: var(--dark-grey);
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-}
+.wrapper {
+  .section {
+    background-color: var(--dark-grey);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
 
-.footer {
-  background-color: var(--dark-grey);
+  .footer {
+    background-color: var(--dark-grey);
+  }
 }

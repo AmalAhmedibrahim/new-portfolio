@@ -1,13 +1,19 @@
-<div class="section" id="home">
-  <app-header> </app-header>
-  <app-home></app-home>
-</div>
-<app-about id="about"></app-about>
-<div class="section">
-  <app-portfolio id="portfolio"></app-portfolio>
-</div>
-<app-certificates id="certificate"></app-certificates>
+<app-header [activeLink]="activeSection"> </app-header>
+<div class="wrapper">
+  <div class="section" id="home">
+    <app-home></app-home>
+  </div>
+  <div id="about">
+    <app-about></app-about>
+  </div>
+  <div class="section" id="portfolio">
+    <app-portfolio></app-portfolio>
+  </div>
+  <div id="certificate">
+    <app-certificates></app-certificates>
+  </div>
 
-<div class="footer">
-  <app-footer id="footer"> </app-footer>
+  <div class="footer" id="footer">
+    <app-footer> </app-footer>
+  </div>
 </div>
