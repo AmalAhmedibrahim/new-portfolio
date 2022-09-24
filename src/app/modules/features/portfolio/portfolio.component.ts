@@ -12,7 +12,7 @@ export class PortfolioComponent implements OnInit {
   constructor() {
     this.projects = [
       {
-        title: 'Actress Website',
+        title: 'Resturant Website',
         imageScr: './assets/images/BitMe.png',
         headTitle: 'Pure HTML , SASS ',
         description:

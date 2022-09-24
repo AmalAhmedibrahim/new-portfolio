@@ -6,7 +6,6 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'portfolio';
   activeSection = 'home';
 
   @HostListener('window:scroll', ['$event'])
