@@ -16,33 +16,35 @@ export class CertificatesComponent implements OnInit {
 
     this.certificates = [
       {
-        name: 'Web development scholarship',
-        organization: 'Information Technology Institute',
-        logoScr: '../assets/images/iti.png',
+        name: `Bachelor of computer science`,
+        organization: 'Ain-Shams University',
+        logoScr: './assets/images/ainshams.png',
         FinalProjectURL: '',
         certificateURL: '',
       },
       {
-        name: 'UI/UX Developer',
-        organization: 'Udacity Nanodegree Program',
-        logoScr: './assets/icons/udacity.svg',
-        FinalProjectURL: '',
+        name: 'Web development scholarship',
+        organization: 'Information Technology Institute',
+        logoScr: '../assets/images/iti.png',
+        FinalProjectURL: 'https://github.com/AmalAhmedibrahim/Linkedin-',
         certificateURL: '',
       },
+
       {
         name: 'React Developer',
         organization: 'Udacity Nanodegree Program',
         logoScr: './assets/icons/udacity.svg',
-        FinalProjectURL: '',
-        certificateURL: '',
+        FinalProjectURL: 'https://github.com/AmalAhmedibrahim/WouldRather',
+        certificateURL: 'https://graduation.udacity.com/confirm/RLDLFA3J',
       },
 
       {
         name: 'Frontend Developer',
         organization: 'Udacity Nanodegree Program',
         logoScr: './assets/icons/udacity.svg',
-        FinalProjectURL: '',
-        certificateURL: '',
+        FinalProjectURL:
+          'https://github.com/AmalAhmedibrahim/EvaluateNewsArticleWithNLP',
+        certificateURL: 'https://graduation.udacity.com/confirm/HJT7U3V5',
       },
     ];
   }

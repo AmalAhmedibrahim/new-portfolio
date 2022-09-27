@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     AboutModule,
     PortfolioModule,
     CertificatesModule,
+    ParticlesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

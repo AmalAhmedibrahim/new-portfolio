@@ -1,12 +1,12 @@
 .navbar {
   height: 3rem;
   margin: 0 5rem;
-  background-color: var(--dark-grey);
+  background-color: rgb(33, 33, 33, 0.6);
   &__container {
     position: fixed;
     right: 0;
     z-index: 10;
-    background-color: var(--dark-grey);
+    background-color: rgb(33, 33, 33, 0.6);
     height: 4rem;
     top: 0;
     opacity: 90%;

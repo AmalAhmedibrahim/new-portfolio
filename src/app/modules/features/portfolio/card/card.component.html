@@ -13,16 +13,19 @@
       <p class="card-bottom__info__description">{{ project.description }}</p>
       <div class="card-bottom__info__languages">
         <i class="bi bi-pencil-square"></i>
-        <span>{{ project.languages }}</span>
+        <span *ngFor="let language of project.languages; let i = index"
+          >{{ language }}
+          <span *ngIf="i < project.languages.length - 1">,</span>
+        </span>
       </div>
       <div class="card-bottom__info__buttons">
         <button type="button" class="btn btn-primary special-btn">
           <i class="bi bi-github"></i>
-          Code
+          <a [href]="project.codeURL" target="_blank"> Code </a>
         </button>
         <button type="button" class="btn btn-primary special-btn">
           <i class="bi bi-link-45deg"></i>
-          View
+          <a [href]="project.websiteURL" target="_blank"> View </a>
         </button>
       </div>
     </div>
