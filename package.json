@@ -4,13 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~11.2.10",
+    "@angular/compiler-cli": "^11.2.14",
     "@angular/animations": "~11.2.11",
     "@angular/common": "~11.2.11",
     "@angular/compiler": "~11.2.11",
