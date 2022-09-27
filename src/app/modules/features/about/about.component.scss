@@ -51,15 +51,22 @@
 }
 
 @media screen and (max-width: 961px) {
-  .about__body {
-    flex-direction: column;
-    &__img {
-      margin: 2rem 0;
-      order: 1;
-    }
-    &__info {
-      width: 100%;
-      order: 2;
+  .about {
+    padding: 6rem 1rem;
+    &__body {
+      flex-direction: column;
+      align-items: center;
+      &__img {
+        margin: 2rem 0;
+        order: 1;
+      }
+      &__info {
+        width: 100%;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     }
   }
 }
