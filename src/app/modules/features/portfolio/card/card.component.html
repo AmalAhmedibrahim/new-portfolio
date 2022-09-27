@@ -1,6 +1,11 @@
 <div class="card">
   <div class="card-border">
-    <img [src]="project.imageScr" class="card-img-top" alt="project" />
+    <img
+      [src]="project.imageScr"
+      class="card-img-top"
+      alt="project"
+      [ngClass]="{ animation: project.animation }"
+    />
   </div>
   <div class="card-bottom">
     <div class="card-bottom__title">

@@ -21,6 +21,7 @@ export class PortfolioComponent implements OnInit {
         languages: ['Angular', 'CSS', 'TypeScript'],
         websiteURL: 'https://flymoneystore.herokuapp.com/',
         codeURL: 'https://github.com/AmalAhmedibrahim/MyStore',
+        animation: false,
       },
       {
         title: 'Restaurant Website',
@@ -32,6 +33,7 @@ export class PortfolioComponent implements OnInit {
         languages: ['HTML, SASS'],
         websiteURL: 'https://github.com/AmalAhmedibrahim/BitMe',
         codeURL: 'https://github.com/AmalAhmedibrahim/BitMe',
+        animation: true,
       },
       {
         title: 'MyReads App',
@@ -42,18 +44,17 @@ export class PortfolioComponent implements OnInit {
         languages: ['React, HTML', 'CSS'],
         websiteURL: 'https://myreadsshelf.herokuapp.com/',
         codeURL: 'https://github.com/AmalAhmedibrahim/MyReads',
+        animation: false,
       },
-
       {
-        title: 'Actress Website',
-        imageScr: './assets/images/Faia.png',
+        title: 'Time To Travel',
+        imageScr: './assets/images/travel.png',
         headTitle: 'Pure HTML , SASS , Js',
-        description:
-          'Actress WebSite that contains latest songs , albums and time of concerts',
-
-        languages: ['HTML, SASS'],
-        websiteURL: 'https://github.com/AmalAhmedibrahim/FaiaYounan',
-        codeURL: 'https://github.com/AmalAhmedibrahim/FaiaYounan',
+        description: `An app obtains information on the user's upcoming destination. With the help of external APIs then displays the weather and an image of the location on that given date.`,
+        languages: ['HTML, SASS', 'JS'],
+        websiteURL: 'https://traveltimeapp.netlify.app/',
+        codeURL: 'https://github.com/AmalAhmedibrahim/TravelApp',
+        animation: true,
       },
     ];
   }

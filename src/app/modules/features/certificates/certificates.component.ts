@@ -19,8 +19,10 @@ export class CertificatesComponent implements OnInit {
         name: `Bachelor of computer science`,
         organization: 'Ain-Shams University',
         logoScr: './assets/images/ainshams.png',
-        FinalProjectURL: '',
-        certificateURL: '',
+        FinalProjectURL:
+          'https://drive.google.com/file/d/1UNTqTPyeFZHVh_o3WjVGu3IWdFS12nHK/view?usp=sharing',
+        certificateURL:
+          'https://drive.google.com/file/d/1zM2CodB8KXBmmjTbUT0WDuO9aL5TEhmU/view?usp=sharing',
       },
       {
         name: 'Web development scholarship',

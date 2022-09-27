@@ -6,4 +6,5 @@ export interface Project {
   languages: string[];
   websiteURL: string;
   codeURL: string;
+  animation: boolean;
 }
