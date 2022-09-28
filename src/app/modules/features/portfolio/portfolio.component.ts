@@ -31,7 +31,7 @@ export class PortfolioComponent implements OnInit {
           'a beautifully designed one-page restaurant website with everything a customer needs (menu, events calendar, contact info, reservation options, address, etc.)',
 
         languages: ['HTML, SASS'],
-        websiteURL: 'https://github.com/AmalAhmedibrahim/BitMe',
+        websiteURL: 'https://bitmerestaurant.netlify.app/',
         codeURL: 'https://github.com/AmalAhmedibrahim/BitMe',
         animation: true,
       },
