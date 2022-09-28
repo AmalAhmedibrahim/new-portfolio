@@ -38,7 +38,7 @@ export class PortfolioComponent implements OnInit {
       {
         title: 'MyReads App',
         imageScr: './assets/images/myReads.gif',
-        headTitle: 'React , HTML ',
+        headTitle: 'MyReads App',
         description: `A bookcase to store your books and track what you're reading. user can add Books to a bookshelf and move them from one shelf to another.`,
 
         languages: ['React, HTML', 'CSS'],
@@ -49,7 +49,7 @@ export class PortfolioComponent implements OnInit {
       {
         title: 'Time To Travel',
         imageScr: './assets/images/travel.png',
-        headTitle: 'Pure HTML , SASS , Js',
+        headTitle: 'Time To Travel',
         description: `An app obtains information on the user's upcoming destination. With the help of external APIs then displays the weather and an image of the location on that given date.`,
         languages: ['HTML, SASS', 'JS'],
         websiteURL: 'https://traveltimeapp.netlify.app/',
