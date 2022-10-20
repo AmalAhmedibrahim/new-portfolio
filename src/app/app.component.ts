@@ -1,16 +1,17 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, AfterViewInit {
   activeSection = 'home';
   myStyle: object = {};
   myParams: object = {};
-  width: number = 100;
-  height: number = 100;
+  width = 100;
+  height = 100;
+  isLoading = true;
 
   ngOnInit(): void {
     this.myStyle = {
@@ -85,6 +86,10 @@ export class AppComponent implements OnInit {
       },
       retina_detect: true,
     };
+  }
+
+  ngAfterViewInit(): void {
+    this.isLoading = false;
   }
 
   @HostListener('window:scroll', ['$event'])

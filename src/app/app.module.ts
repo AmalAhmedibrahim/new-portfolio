@@ -1,3 +1,4 @@
+import { SharedModule } from './modules/shared/shared.module';
 import { CertificatesModule } from './modules/features/certificates/certificates.module';
 import { PortfolioModule } from './modules/features/portfolio/portfolio.module';
 import { AboutModule } from './modules/features/about/about.module';
@@ -21,6 +22,7 @@ import { ParticlesModule } from 'angular-particle';
     PortfolioModule,
     CertificatesModule,
     ParticlesModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
