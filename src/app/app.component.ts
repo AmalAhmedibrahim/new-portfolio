@@ -11,7 +11,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   myParams: object = {};
   width = 100;
   height = 100;
-  isLoading = true;
+  isLoading: boolean;
+
+  constructor() {
+    this.isLoading = true;
+  }
 
   ngOnInit(): void {
     this.myStyle = {
