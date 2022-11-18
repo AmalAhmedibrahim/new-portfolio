@@ -29,7 +29,8 @@ export class CertificatesComponent implements OnInit {
         organization: 'Information Technology Institute',
         logoScr: '../assets/images/iti.png',
         FinalProjectURL: 'https://github.com/AmalAhmedibrahim/Linkedin-',
-        certificateURL: '',
+        certificateURL:
+          'https://drive.google.com/file/d/11Cma-zZ2EBT-VId9HW18kBG6NuZZSFxf/view?usp=sharing',
       },
 
       {
