@@ -19,7 +19,7 @@ export class PortfolioComponent implements OnInit {
           'An angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and complete the checkout process.',
 
         languages: ['Angular', 'CSS', 'TypeScript'],
-        websiteURL: 'https://flymoneystore.herokuapp.com/',
+        websiteURL: 'https://flymoney.netlify.app/',
         codeURL: 'https://github.com/AmalAhmedibrahim/MyStore',
         animation: false,
       },
@@ -42,7 +42,7 @@ export class PortfolioComponent implements OnInit {
         description: `A bookcase to store your books and track what you're reading. user can add Books to a bookshelf and move them from one shelf to another.`,
 
         languages: ['React, HTML', 'CSS'],
-        websiteURL: 'https://myreadsshelf.herokuapp.com/',
+        websiteURL: 'https://readlibrary.netlify.app/',
         codeURL: 'https://github.com/AmalAhmedibrahim/MyReads',
         animation: false,
       },
