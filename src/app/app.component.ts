@@ -1,11 +1,11 @@
-import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
+import { AfterContentInit, Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class AppComponent implements OnInit, AfterContentInit {
   activeSection = 'home';
   myStyle: object = {};
   myParams: object = {};
@@ -92,7 +92,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     };
   }
 
-  ngAfterViewInit(): void {
+  ngAfterContentInit(): void {
     this.isLoading = false;
   }
 
