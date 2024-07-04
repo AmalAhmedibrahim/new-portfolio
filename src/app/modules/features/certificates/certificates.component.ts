@@ -34,7 +34,7 @@ export class CertificatesComponent implements OnInit {
       },
 
       {
-        name: 'React Developer',
+        name: 'React developer',
         organization: 'Udacity Nanodegree Program',
         logoScr: './assets/icons/udacity.svg',
         FinalProjectURL: 'https://github.com/AmalAhmedibrahim/WouldRather',
@@ -42,7 +42,7 @@ export class CertificatesComponent implements OnInit {
       },
 
       {
-        name: 'Frontend Developer',
+        name: 'Frontend developer',
         organization: 'Udacity Nanodegree Program',
         logoScr: './assets/icons/udacity.svg',
         FinalProjectURL:
